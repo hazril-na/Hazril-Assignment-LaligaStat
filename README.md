@@ -1,4 +1,23 @@
-# 🎈 Blank app template
+# ⚽ LaLiga Player Statistics Dashboard  
+
+Dashboard ini menampilkan statistik pemain LaLiga (Goals, Assists, Minutes, dll.)  
+
+dibuat menggunakan **Streamlit**, **Pandas**, dan **Matplotlib/Seaborn**.
+
+## 🚀 Fitur Utama
+
+- 📊 **Data Preview** – Menampilkan dataset LaLiga
+- 🔎 **Filter Tim & Posisi** – Menggunakan `selectbox` & `multiselect`
+- 🎚 **Filter Goals** – Slider untuk memilih rentang jumlah gol
+- 📈 **Statistik Singkat** – Total pemain, total gol, total assist
+- 📉 **Visualisasi Interaktif**:
+  - Barplot: Top 10 Pencetak Gol
+  - Scatter Plot: Goals vs Assists
+- 📦 **Cache Data** untuk loading lebih cepat
+
+---
+
+## 🗂️ Struktur Proyek
 
 A simple Streamlit app template for you to modify!
 
